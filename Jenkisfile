@@ -10,7 +10,7 @@ pipeline {
         stage('Unit and Integration Tests') {
             steps {
                 // Run your unit and integration tests
-                echo "Running unit and integration testing"
+                echo "Running unit and integration testing phase 2"
             }
         }
         stage('Code Analysis') {
