@@ -22,7 +22,7 @@ pipeline {
         stage('Security Scan') {
             steps {
                 // Integrate a security scanning tool (e.g., OWASP ZAP)
-                echo "Integrated a security scanning tool"
+                echo "Integrated a security scanning tool in this stage"
             }
         }
         stage('Deploy to Staging') {
